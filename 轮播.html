@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+ <!--  <script>
+      function lb(){
+        document.getElementById("tp1")
+      }
+    </script>--> 
+    <style>
+        
+        /*------------lunbo------------------------------------------------*/
+        *{margin:0;padding:0;}
+        a{text-decoration: none;}
+        li{list-style:none;}
+        img{border:none;}
+        #main{
+    width:1024px;
+    height: 500px;
+    border:1px #ccc solid;margin:20px auto;position:relative;
+}
+#main .tp img{
+    width:100%;
+    height: 500px;
+    position: absolute;
+    border:none;
+}
+.tp{
+    width:1024px;
+    height: 500px;
+
+position: relative;
+}
+
+#main .item{
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    width: 200px;
+    height: 16px;
+}
+#main .item span{
+    width: 16px;
+    height: 16px;
+    background: #ccc;
+    display: inline-block;
+    border-radius: 50%;
+}
+#main .item span:hover{
+    cursor: pointer;
+}
+.xj{width:1024px;margin:0px auto;font-size: 18px;}
+
+/*
+@font-face {font-family: iconfont;url('iconfont.woff2') format('woff2');}
+.iconfont {font-size: 100px;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;}
+.iconfont:hover{font-size: 100px}
+       /*------------lunbo------------------------------------------------*/
+.navbar{margin:0;}
+        /*------------jieshao------------------------------------------------*/
+#jieshao{height:550px;background-color:#F8F8F8;}
+.jieshao{width:1024px;height:550px;margin:0 auto;text-align: center;padding-top: 52px;padding-bottom: 66px;}
+.jieshao h3{font-size:21px;color:#010100;padding-bottom:20px;}
+.jieshao p{font-size:12px;color:#010100;}
+.jieshao ul{width:1086px;padding-top:30px;}
+.jieshao ul li{width:300px;height:310px;background-color:#fff;float:left;margin-right:62px;}
+.jieshao ul li a{color:#010100;display:block;padding:0 45px;font-size:15px;line-height:25px;text-decoration: none;}
+.jieshao ul li a b{color:#010100;display:block;font-size:20px;padding-bottom:12px;}
+*{margin:0;padding:0;}
+a{text-decoration: none;}
+        li{list-style:none;}
+        img{border:none;}
+
+    </style>
+<link rel="stylesheet" type="text/css" href="1/iconfont.css"/>
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <!----------------------------------------------top----------------------------------------------------------->
+        <nav class="navbar navbar-default">
+            <nav class="xj">
+                <div class="navbar-header">
+                        <a class="navbar-brand" href="#">首页</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                          <li><a href="#">线上服务</a></li>
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">服务项目 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">筛选</a></li>
+                              <li><a href="#">对接</a></li>
+                              <li><a href="#">分子动力学</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">One more separated link</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">联系我们</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left">
+                                <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button type="submit" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                              </form>
+                        <ul class="nav navbar-nav navbar-right" >
+                                    <li><a href="#">注册</a></li>
+                                    <li><a href="#">登录</a></li>
+                        </ul>
+            </nav>
+        </nav>
+        <!--------------------------------------------center----------------------------------------------------------->  
+    <div id="main">
+        <div class="tp">
+            <img src="图片/横版照片1.jpg" id="t1">
+            <img src="图片/2.jpg" id="t2">
+            <img src="图片/3.png" id="t3">
+        </div>
+        <div class="btn">
+            <div id="btnleft"><div class="triangle"></div></div>
+            <div id="btnright"><div class="triangle"></div></div>
+        </div>
+        <div class="item">
+            <span name="xb"></span>
+            <span name="xb"></span>
+            <span name="xb"></span>
+        </div>
+    </div>
+    <!---------------------------------------------jieshao---------------------------------------------------------->   
+    <div id="jieshao">
+            <div class="jieshao">
+            <h3><b>我们的优势</h3></b><p><b>做独一无二的设计，行无微不至的服务</b></p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <b>背景介绍</b>
+                        药物研发信息平台是天津国际生物医药联合研究院核心科研技术平台之一，与南开大学，超算中心，天云大数据公司等合作，致力于提供原创的生物医药信息和计算解决方案，核心业务是提供高通量药物虚拟筛选和药物优化设计，涉及计算化学、化学信息学、分子模拟、网络药理学、计算生物学、高性能计算等各学科领域。
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <b>服务介绍</b>
+                        基于我们丰富的专业知识和技术，我们向广大客户提供以下方面的蛋白同源建模服务：高质量蛋白同源建模服务，以及基于同源模型的药物筛选和药物结合位点预测服务, 分子对接、虚拟筛选、分子动力学模拟、网络药理学分析、生物信息等相关内容。
+                    </a>
+                </li>
+                <li class="zli">
+                    <a href="#">
+                        <b>团队介绍</b>
+                        药物研发信息平台团队硕士及以上学历人员达到总人数的85%，并与南开大学联合培养硕士生，成员汇集了计算机辅助药物设计、生物信息、药物化学、计算生物学、软件工程等专业领域优秀人才。
+                </li>
+            </ul>
+            </div>
+    </div>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script>
+         window.onload=function(){
+            autoMove('img','xb');
+        }
+         function autoMove(tagImg,xb){
+            var imgs=document.getElementsByTagName(tagImg);
+            var spans=document.getElementsByName(xb);
+            function InitMove(index){
+                for(var i=0;i<imgs.length;i++){
+                    imgs[i].style.opacity='0';
+                    spans[i].style.background='#ccc';
+                }
+                imgs[index].style.opacity='1';
+                spans[index].style.background='red';
+            }
+            InitMove(0);
+            var count=1;
+            function fMove(){
+                if(count==imgs.length){
+                    count=0;
+                }
+                InitMove(count);
+                count++;
+            }
+            var scollMove=setInterval(fMove,2500);
+            var btnleft=document.getElementById('btnleft');
+            var btnright=document.getElementById('btnright');
+            btnleft.onclick=function(){
+                clearInterval(scollMove);
+                if(count==0){
+                    count=imgs.length;
+                }
+                count--;
+                InitMove(count);
+                scollMove=setInterval(fMove,2500);
+            };
+            btnright.onclick=function(){
+                clearInterval(scollMove);
+                fMove();
+                scollMove=setInterval(fMove,2500);
+            }
+        }
+
+    </script>
+  </body>
+</html>
